@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: GastosPessoais
+  datasource:
+    url: ${JDBC_CONNECTOR}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
